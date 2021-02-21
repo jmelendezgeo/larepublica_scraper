@@ -1,0 +1,7 @@
+Links = //div/a[contains(@class, "kicker")]/@href
+Titulo = {//div[@class = "mb-auto"]/h2/a/text(),
+          //div[@class="mb-auto"]/text-fill/a/text(),
+          //h2[not(@class)]/a/text()}
+Autor =  //div[@class = "autorArticle"]/p/text()
+Resumen = //div[@class= "lead"]/p/text()
+Cuerpo = //div[@class= "html-content"]/p[not(@class)]/text()
